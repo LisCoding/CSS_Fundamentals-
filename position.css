@@ -1,0 +1,37 @@
+/*all elements have static position*/
+
+.container {
+  background-color: pink;
+  display: inline-block;
+  height: 2000px;
+  weight: 2000px;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  margin: 20px;
+}
+/*absolute cause overflow and push
+a distance relative to its parent that have absolute value*/
+#box1 {
+  background-color: yellow;
+  /*position: absolute;*/
+}
+
+/*relative moves away from its current place*/
+#box2 {
+  background-color: purple;
+  position: relative;
+  top: 10px;
+  left: 15px;
+}
+
+/*psoition out of the document flow and always it is
+relative to the window and remain always in place*/
+#box3 {
+  background-color: green;
+  position: fixed;
+
+}
