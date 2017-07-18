@@ -1,0 +1,23 @@
+nav {
+  background-color: yellow;
+  padding: 10px;
+}
+
+ul {
+  background-color: pink;
+  padding: 10px;
+  margin: 10px;
+}
+
+li {
+  background-color: red;
+  color: red;
+  margin: 5px;
+  padding: 10px;
+}
+
+a {
+  background-color: white;
+  margin: 50px;
+  padding: 5px;
+}
